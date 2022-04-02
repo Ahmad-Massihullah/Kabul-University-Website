@@ -1,0 +1,180 @@
+{
+	margin: 0;
+	padding: 0;
+}
+body{
+	
+	background-size: 140%;
+	background-position: 0px 0px;
+	
+}
+div.main{
+	width: 400px;
+	margin: 100px auto 0px auto;
+	background-color: lightblue;
+	
+
+}
+h2{
+	text-align: center;
+	padding: 25px;
+	font-family: sans-serif;
+
+	
+}
+h3{
+	margin: 5px;
+	padding: 10px;
+	font-family: sans-serif;
+
+	
+}
+div.register{
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	font-size: 20px;
+	border-radius: 10px;
+	border:1px soid rgba(255,255,255,0.3);
+	box-shadow: 2px 2px 15px
+	rgba(0,0,0,0.3);
+	color:#fff;
+}
+form#register{
+	margin: 40px;
+	font-family: sans-serif;
+	background-color: rgba(100,110,120,130);
+
+}
+label{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: ;
+	margin: 5px;
+
+
+}
+select#Course{
+	width: 243px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+	background-color: #fff;
+    font-family: sans-serif;
+    font-style: italic;
+    box-shadow: inset 1px 1px 5px;
+    font-size: 16px;
+}
+
+input#name{
+	width: 300px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+	background-color: #fff;
+    font-family: sans-serif;
+    font-style: italic;
+    box-shadow: inset 1px 1px 5px;
+    font-size: 16px;
+    margin: 5px;
+}
+input#Phonenum{
+	width: 300px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+	background-color: #fff;
+    font-family: sans-serif;
+    font-style: italic;
+    box-shadow: inset 1px 1px 5px;
+     font-size: 16px;
+     margin: 5px;
+
+}
+input#Address{
+	width: 250px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	outline: 0;
+	padding: 30px;
+	background-color: #fff;
+    font-family: sans-serif;
+    font-style: italic;
+    box-shadow: inset 1px 1px 5px;
+     font-size: 16px;
+     margin: 5px;
+    }
+    input#Email{
+	width: 300px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+	background-color: #fff;
+    font-family: sans-serif;
+    font-style: italic;
+    box-shadow: inset 1px 1px 5px;
+     font-size: 16px;
+     margin: 5px;
+}
+input#Password{
+	width: 300px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+	background-color: #fff;
+    font-family: sans-serif;
+    font-style: italic;
+    box-shadow: inset 1px 1px 5px;
+     font-size: 16px;
+     margin: 5px;
+}
+span#male{
+	width: 300px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+	background-color: #fff;
+    font-family: sans-serif;
+    font-style: italic;
+    box-shadow: inset 1px 1px 5px;
+     font-size: 16px;
+     margin: 5px;
+}
+span#male{
+	width: 300px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+	background-color: #fff;
+    font-family: sans-serif;
+    font-style: italic;
+    box-shadow: inset 1px 1px 5px;
+     font-size: 16px;
+     margin: 5px;
+}
+input#submit{
+	width: 300px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+	background-color: #fff;
+    font-family: sans-serif;
+    font-style: italic;
+     font-size: 16px;
+     vertical-align: center;
+     margin: 5px;
+}
+p{
+	background-color: lightblue;
+	border-color: lightblue;
+	text-transform: capitalize;
+	margin: 5px;
+}
+

@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+<title> KU CS Faculty Student Registration Form</title>
+
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+	<div class="main"> 
+	<div class="Registration">
+
+	   <h2>KU CS Faculty Student Registration Form</h2> 
+	   <hr><hr>
+	   <h3> Please Register Your Information Below: </h3> 
+	   <form id="Register" method="post">
+	   <label>First Name: </label>
+	   <br>
+   	   <input type="text" name="Fname" id="name" placeholder="Enter Your First Name">
+	   <br><br>
+		<label> Middle Name:</label>
+		<br>
+		<input type="text" name="Mname" id="name" placeholder="Enter Your Middle Name">
+		<br><br>
+		<label> Last Name:</label>
+		<br>
+		<input type="text" name="lname" id="name" placeholder="Enter Your Last Name">
+		<br><br>
+		<label>Course:</label>
+		<select id="Course" name="Course">
+			<option value="select your Course">Select Your Course</option>
+			<option value="Web Development">Web Development</option>
+			<option value="PHP">PHP</option>
+			<option value="Data Structer">Data Structer</option>
+			<option value="Islamic Studies">Islamic Studies</option>
+			<option value="Statistics">Statistics</option>
+		</select>
+		<br>
+
+		<br><br>
+		<label> Gender:</label>
+		<br><br>
+		<input type="radio" name="Gender" id="male" checked>
+		<span id="male">Male</span>
+		<input type="radio" name="Gender" id="female">
+		<span id="male">Female</span>
+		<input type="radio" name="Gender" id="other">
+		<span id="male">Other</span>
+		<br><br>
+		<label>Your Phone Number:</label>
+		<br>
+		<input type="positive number" name="Phone Number" id="Phonenum" placeholder="+93 7********" title="Write Your Number with Its Country Code Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+		<br><br>
+		<label>Your Current Address:</label>
+		 <br>
+		<input type="Address" name=" Address"  id="Address" placeholder="Write Your Address here!">
+		<br><br>
+		<label>Email Address: </label>
+	   <br>
+   	   <input type="Email" name="Email" id="Email" placeholder="Enter Your Email Address" title="Input Your Valid Email Address">
+   	   <br><br>
+   	   <label> Your Password: </label>
+	   <br>
+   	   <input type="text,number" name="Password" id="Password" placeholder="Type Your Password" pattern="(?=.*\d)(?=.*[A-Z]).(8,)" title="Your Password must contains letters numbers and caracheters.">
+   	   <br><br>
+   	    <label> Re-Type Password: </label>
+	   <br>
+   	   <input type="text,number" name="Password" id="Password" placeholder="Re-Type Your Password"pattern="(?=.*\d)(?=.*[A-Z]).(8,)" title="Your Password must contains letters numbers and caracheters.">
+   	   <br><br>
+   	   <input type="submit" value="Register" name="Register" id="submit">
+   	   <p>Designed by Ahmad Massihullah Mohmand</p>
+
+		</form>
+
+	</div>
+	</div>
+</body>
